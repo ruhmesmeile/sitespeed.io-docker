@@ -20,7 +20,7 @@ rm chromedriver_linux64.zip && \
 chmod +x chromedriver && \
 mv -f chromedriver /usr/bin/chromedriver && \
 npm set progress=false && \
-npm install -g sitespeed.io && npm cache clean && \
+npm install -g ruhmesmeile/sitespeed.io#ruhmesmeile && npm cache clean && \
 apt-get purge -y curl git build-essential && \
 apt-get clean autoclean && \
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
