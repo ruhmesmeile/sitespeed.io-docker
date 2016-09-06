@@ -12,6 +12,7 @@ apt-get install -y \
 default-jre-headless \
 git \
 libicu52 \
+unzip \
 nodejs \
 build-essential --no-install-recommends && \
 wget -N http://chromedriver.storage.googleapis.com/2.20/chromedriver_linux64.zip && \
